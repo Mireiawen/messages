@@ -14,7 +14,7 @@
 		"php": ">=7.3.0",
 		"ext-gettext": "*",
 		"ext-intl": "*",
-		"myclabs/php-enum": "dev-master"
+		"myclabs/php-enum": "^1.7"
 	},
 	"autoload": {
 		"psr-4": {
