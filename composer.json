@@ -1,0 +1,24 @@
+{
+	"name": "mireiawen/messages",
+	"description": "Handle messages in session specific queue",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mira Manninen",
+			"email": "mir@mireiawen.net"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.3.0",
+		"ext-gettext": "*",
+		"ext-intl": "*",
+		"myclabs/php-enum": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Mireiawen\\Messages\\": "includes/"
+		}
+	}
+}
